@@ -22,6 +22,7 @@ class TestRoom(unittest.TestCase):
         self.song_5 = Song("Idiot", "Day", "Pop", 5)
         self.song_6 = Song("Yellow", "Coldplay", "Pop", 2.5)
         self.song_7 = Song("The People", "Wanted", "Pop", 2.5)
+        # self.song_list = Song._all_songs
         self.song_list = [self.song_1, self.song_2, self.song_3, self.song_4, self.song_5, self.song_6, self.song_7]
         self.guest_1 = Guest("Edyta", 43, 30, "Rock")
         self.guest_2 = Guest("Bob", 17, 20)
